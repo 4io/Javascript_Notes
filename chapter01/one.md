@@ -11,7 +11,7 @@
   * so on
   * and on.
   
-## collapsible markdown?
+## 0. Collapsible markdown?
 
 <details><summary>CLICK ME</summary>
 <p>
@@ -27,7 +27,7 @@ print("hello world!")
 
 
 
-## collapsible markdown?
+## 0. Collapsible markdown?
 
 <details><summary>CLICK ME AGAIN</summary>
 <p>
@@ -42,12 +42,19 @@ print("hello world!")
 </details>
 
 
-## How do you create a collapsible markdown section?
+## 1. How do you create a collapsible markdown section?
 <details><summary>Click me</summary>
 <p>
-The entire section is describe by a details tag, followed
-by a clickable element within a summary tag, and lastly ending in a paragraph
-tag. You can include code blocks using triple back ticks ```
+The entire section is describe by a _details_ tag, followed
+by a clickable element within a _summary tag_, and lastly ending in a _paragraph_
+tag. ie:
+  *<details><summar>click me</summar>
+  <p>
+    content
+  </p>
+  </details>*
+
+You can also include code blocks using triple back ticks ```
 
  ```ruby
 class Make
