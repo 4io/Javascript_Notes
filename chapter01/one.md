@@ -48,11 +48,11 @@ print("hello world!")
 The entire section is describe by a _details_ tag, followed
 by a clickable element within a _summary tag_, and lastly ending in a _paragraph_
 tag. ie:
-  *<details><summar>click me</summar>
-  <p>
+  &lt;details>&lt;summary>click me&lt;/summary>
+  &lt;p>
     content
-  </p>
-  </details>*
+  &lt;/p>
+  &lt;/details>
 
 You can also include code blocks using triple back ticks ```
 
