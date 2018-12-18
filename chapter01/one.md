@@ -50,13 +50,9 @@ by a clickable element within a _summary tag_, and lastly ending in a _paragraph
 tag. ie:
 
   &lt;details>&lt;summary>click me&lt;/summary>
-
-  &lt;p>
-
-    content
-
-  &lt;/p>
-
+    &lt;p>
+      content
+    &lt;/p>
   &lt;/details>
 
 You can also include code blocks using triple back ticks ```
