@@ -24,3 +24,24 @@ print("hello world!")
 
 </p>
 </details>
+
+How do you create a collapsible markdown section?
+<details><summary>Click me</summary>
+<p>
+> The entire section is describe by a details tag, followed
+by a clickable element within a summary tag, and lastly ending in a paragraph
+tag. 
+> You can include code blocks using triple back ticks ```
+>
+ ```ruby
+class Make
+  def show(name)
+    puts name
+  end
+end
+```
+
+</p>
+</details>
+
+
