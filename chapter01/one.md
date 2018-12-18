@@ -27,25 +27,28 @@ print("hello world!")
 
 
 
+## collapsible markdown?
+
+<details><summary>CLICK ME AGAIN</summary>
+<p>
+
 #### yes, even hidden code blocks!
 
 ```python
-print("hello yellow!")
+print("hello world!")
 ```
 
 </p>
 </details>
 
 
-
-How do you create a collapsible markdown section?
+## How do you create a collapsible markdown section?
 <details><summary>Click me</summary>
 <p>
-> The entire section is describe by a details tag, followed
+The entire section is describe by a details tag, followed
 by a clickable element within a summary tag, and lastly ending in a paragraph
-tag. 
-> You can include code blocks using triple back ticks ```
->
+tag. You can include code blocks using triple back ticks ```
+
  ```ruby
 class Make
   def show(name)
