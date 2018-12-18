@@ -25,6 +25,19 @@ print("hello world!")
 </p>
 </details>
 
+
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello yellow!")
+```
+
+</p>
+</details>
+
+
+
 How do you create a collapsible markdown section?
 <details><summary>Click me</summary>
 <p>
