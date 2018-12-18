@@ -57,13 +57,61 @@ tag. ie:
 
 You can also include code blocks using triple back ticks ```
 
- ```ruby
-class Make
-  def show(name)
-    puts name
-  end
-end
+ ```javascript
+let theNumber = Number(prompt("Pick a number"));
+if (!Number.isNaN(theNumber)) {
+  console.log("Your number is the square root of " +
+              theNumber * theNumber);
+}
 ```
+
+</p>
+</details>
+
+
+## 2. What are side effects? 
+
+<details><summary>CLICK ME</summary>
+<p>
+If a javascript statement changes the world in some way, those changes are called side effects.
+
+It could display something on the screen—that counts as changing the world—or it could change the internal state of the machine in a way that will affect the statements that come after it.
+Statements that only return values and don't otherwise change the world are said to have no side effects.
+</p>
+</details>
+
+## 3. 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+
+</p>
+</details>
+
+## 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+
+</p>
+</details>
+
+
+
+
+
+
+
+
+Collapsible Template:
+
+## 
+
+<details><summary>CLICK ME</summary>
+<p>
+
 
 </p>
 </details>
