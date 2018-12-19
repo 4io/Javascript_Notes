@@ -172,7 +172,11 @@ The place where the computer stores this context information is the **call stack
 <details><summary>CLICK ME</summary>
 <p>
 
-being able to reference a specific instance of a local binding in an enclosing scope—is called closure. 
+Closures are data structures with both a code and a data component. 
+
+Conceptually, a closure consists of an open lambda term, plus an environment dictating the values of its free variables.
+
+So, being able to reference a specific instance of a local binding in an enclosing scope—is called closure. 
 
 A function that references bindings from local scopes around it is called **a closure**. This behavior not only frees you from having to worry about lifetimes of bindings but also makes it possible to use function values in some creative ways.
 
@@ -185,9 +189,6 @@ let twice = multiplier(2);   // twice closes over the argument '2' passed into t
 console.log(twice(5)); 
 // → 10
 ```
-Closures are data structures with both a code and a data component. 
-
-Conceptually, a closure consists of an open lambda term, plus an environment dictating the values of its free variables.
 </p>
 </details>
 
