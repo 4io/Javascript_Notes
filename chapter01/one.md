@@ -125,9 +125,102 @@ function square(x) {
 }
 ```
 Declarations allow for HOISTING. 
+
 That's because Function declarations are not part of the regular top-to-bottom flow of control. They are conceptually moved to the top of their scope and can be used by all the code in that scope. This is sometimes useful because it offers the freedom to order code in a way that seems meaningful, without worrying about having to define all functions before they are used.
 </p>
 </details>
+
+## 7. Do arrow functions require a return statement?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+No.
+
+```javascript
+const square1 = (x) => { return x * x; };
+const square2 = x => x * x;
+
+When an arrow function has no parameters at all, its parameter list is just an empty set of parentheses.
+
+const horn = () => {
+  console.log("Toot");
+};
+```
+
+</p>
+</details>
+
+
+## 8. What is the call stack? 
+
+<details><summary>CLICK ME</summary>
+<p>
+The javascript engine keeps track of the context from which each function is called.
+It does this to manage control flows through functions.
+
+The place where the computer stores this context information is the **call stack**.
+
+ Every time a function is called, the current context is stored on top of this stack. When a function returns, it removes the top context from the stack and uses that context to continue execution.
+
+</p>
+</details>
+
+
+## 9. What's closure? 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+being able to reference a specific instance of a local binding in an enclosing scope—is called closure. 
+
+A function that references bindings from local scopes around it is called **a closure**. This behavior not only frees you from having to worry about lifetimes of bindings but also makes it possible to use function values in some creative ways.
+
+```javascript
+function multiplier(factor) {
+  return number => number * factor;
+}
+
+let twice = multiplier(2);   // twice closes over the argument '2' passed into the multiplier function
+console.log(twice(5)); 
+// → 10
+```
+Closures are data structures with both a code and a data component. 
+
+Conceptually, a closure consists of an open lambda term, plus an environment dictating the values of its free variables.
+</p>
+</details>
+
+
+## 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+
+</p>
+</details>
+
+
+## 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+
+</p>
+</details>
+
+
+## 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+
+</p>
+</details>
+
 
 ## 
 
@@ -143,9 +236,19 @@ That's because Function declarations are not part of the regular top-to-bottom f
 
 
 
-
-
+<!---
 Collapsible Template:
+-->
+
+## 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+
+</p>
+</details>
+
 
 ## 
 
