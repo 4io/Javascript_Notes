@@ -84,6 +84,7 @@ Statements that only return values and don't otherwise change the world are said
 
 <details><summary>CLICK ME</summary>
 <p>
+
 undefined
 </p>
 </details>
@@ -92,6 +93,7 @@ undefined
 
 <details><summary>CLICK ME</summary>
 <p>
+
 block
 </p>
 </details>
@@ -109,12 +111,14 @@ The set of bindings visible inside a block is determined by the place of that bl
 <details><summary>CLICK ME</summary>
 <p>
 A function definition is a regular binding where the value of the binding is a function.
+
 ```javascript
 const square = function(x) {
   return x * x;
 };
 ```
 A function declaration defines the binding and points it at the funcition.
+
 ```javascript
 function square(x) {
   return x * x;
